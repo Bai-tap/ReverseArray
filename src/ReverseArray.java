@@ -15,9 +15,13 @@ public class ReverseArray {
         array = new int[size];
         int i = 0;
         while (i < array.length) {
-            System.out.println("Enter element: " + (i + 1) + " : ");
+            System.out.print("Enter element: " + (i + 1) + " : ");
             array[i] = sc.nextInt();
             i++;
+        }
+        System.out.println("List of elements: ");
+        for (int j = 0; j < array.length; j++) {
+            System.out.print(array[j] + "\t");
         }
     }
 }
