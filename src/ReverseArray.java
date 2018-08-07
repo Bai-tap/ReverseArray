@@ -12,5 +12,12 @@ public class ReverseArray {
                 System.out.println("Size does not exceed 20");
         } while (size > 20);
 
+        array = new int[size];
+        int i = 0;
+        while (i < array.length) {
+            System.out.println("Enter element: " + (i + 1) + " : ");
+            array[i] = sc.nextInt();
+            i++;
+        }
     }
 }
